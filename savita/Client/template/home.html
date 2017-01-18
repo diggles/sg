@@ -1,0 +1,21 @@
+
+<div id="content">
+    <div class="leftSection pure-u-15-24">
+        <img class="avatar" ng-src="{{group.groupDetails.avatarFull}}" />
+        <p ng-bind-html="group.groupDetails.summary"></p>
+    </div>
+
+    <div class="rightSection pure-u-1-3">
+
+        <h2>Server Status</h2>
+
+        <div ng-repeat="server in servers" class="server">
+            <h4 ng-bind="server.ServerInfo.Name"></h4>
+            {{server.ServerInfo.Players}} stoners playing on {{server.ServerInfo.Map}} <a ng-href='steam://connect/{{server.ServerInfo.Address}}'>Join Game</a>
+            <a href="#/servers">More Info</a>
+        </div>
+
+
+        <img class="pyro" src="http://image.blingee.com/images19/content/output/000/000/000/7bc/797770903_1874609.gif" />
+    </div>
+</div>

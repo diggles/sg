@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="savita">
+<head>
+    <title>Savita Gaming</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link href="./css/styles.css" rel="stylesheet" />
+    <!--( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)-->
+</head>
+<body>
+    <div id="container">
+		<div id="navi">
+			<h1 class="inlineHeader">Savita Gaming</h1>
+			<ul ng-controller="NavigationController">
+				<li ng-class="{active: isActive('/')}"><a href="#/">Home</a></li>
+				<li ng-class="{active: isActive('/members')}"><a href="#/members">Members</a></li>
+				<li ng-class="{active: isActive('/servers')}"><a href="#/servers">Servers</a></li>
+				<li ng-class="{active: isActive('/shop')}"><a href="#/shop">Shop</a></li>
+				<li><a href="steam://url/GroupSteamIDPage/103582791456067151">Steam Group</a></li>
+			</ul>
+		</div>
+		<ng-view></ng-view>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.8/angular-route.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.8/angular-resource.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.8/angular-animate.min.js"></script>
+	<script src="https://code.angularjs.org/1.5.8/angular-sanitize.min.js"></script>
+	
+    <script src="./script/main.js"></script>
+	
+    <script src="./script/controllers/NavigationController.js"></script>
+    <script src="./script/controllers/HomeController.js"></script>
+    <script src="./script/controllers/MembersController.js"></script>
+    <script src="./script/controllers/ServersController.js"></script>
+    
+    <script src="./script/services/serverinfo.js"></script>
+    <script src="./script/services/groupinfo.js"></script>
+	<!--
+    <script src="./js/filters/PassageFilter.js"></script>
+	-->
+</body>
+</html>

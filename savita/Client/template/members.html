@@ -1,0 +1,9 @@
+
+<div id="content">
+	<span style="color:red">In a Savita server</span> <br />
+	<span style="color:green">In Game</span><br />
+	<span style="color:blue">Online</span><br />
+	<span style="color:gray">Offline</span><br />
+	
+	<img ng-repeat="member in group.users" class="icon {{member.OnlineClass}}" ng-src="{{member.avatarMedium}}" />
+</div>

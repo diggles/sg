@@ -1,0 +1,79 @@
+html {
+	background: #1b2838;
+}
+body {
+	font-family: helvetica;
+	background: #344152;
+	color: #eee;
+	margin: 0 50px;
+}
+table {
+	width: 100%;
+	margin: 0 auto;
+}
+a {
+	color: #eee;
+}
+.active {
+	background: #344152;
+}
+.active a {
+	color: #aaa;
+}
+#content {
+	
+	padding: 0 20px;
+}
+#navi {
+	background: #1b2838;
+	overflow: auto;
+}
+#navi ul {
+	float:left;
+	list-style: none;
+	margin-bottom: 0;
+}
+#navi ul li {
+	float:left;
+	padding: 15px 25px;
+}
+.server {
+	background: #666;
+	border: 1px solid #eee;
+	padding: 0 10px;
+}
+.inlineHeader {
+	float: left;
+	margin-bottom: 0;
+}
+.pyro {
+	width: 100%;
+}
+.avatar {
+	border-radius: 50px;
+	margin: 20px;
+	float:right;
+}
+.icon {
+	width: 50px;
+	border-radius: 50px;
+}
+.savita {
+	border: red solid 3px
+}
+.online {
+	border: blue solid 2px
+}
+.in-game {
+	border: green solid 2px
+}
+.offline {
+	border: gray solid 2px
+}
+.rightSection {
+	float :right;
+	text-align: center;
+}
+.leftSection {
+	float :left;
+}

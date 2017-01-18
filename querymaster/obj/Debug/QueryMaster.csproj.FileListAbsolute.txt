@@ -1,0 +1,8 @@
+C:\Users\D\Downloads\querymaster-38040\QueryMaster\bin\Debug\QueryMaster.dll
+C:\Users\D\Downloads\querymaster-38040\QueryMaster\bin\Debug\QueryMaster.pdb
+C:\Users\D\Downloads\querymaster-38040\QueryMaster\bin\Debug\Ionic.BZip2.dll
+C:\Users\D\Downloads\querymaster-38040\QueryMaster\bin\Debug\Newtonsoft.Json.dll
+C:\Users\D\Downloads\querymaster-38040\QueryMaster\bin\Debug\Newtonsoft.Json.xml
+C:\Users\D\Downloads\querymaster-38040\QueryMaster\obj\Debug\QueryMaster.csprojResolveAssemblyReference.cache
+C:\Users\D\Downloads\querymaster-38040\QueryMaster\obj\Debug\QueryMaster.dll
+C:\Users\D\Downloads\querymaster-38040\QueryMaster\obj\Debug\QueryMaster.pdb
